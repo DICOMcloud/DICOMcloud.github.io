@@ -1,3 +1,13 @@
-theme: jekyll-theme-cayman
+---
 title: DICOMcloud Project
-description: Azure friendly DICOMweb part 18 .NET server and client components with qido-rs, wado-rs, stow-rs, wado-uri RESTful implementation http://dicomweb.azurewebsites.net/ 
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+theme: jekyll-theme-cayman
+description: Azure friendly DICOMweb part 18 .NET server and client components with
+  qido-rs, wado-rs, stow-rs, wado-uri RESTful implementation http://dicomweb.azurewebsites.net/
