@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Example content
+date: 2014-01-01 00:00:00 -05:00
+layout: post
 ---
-
 
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.

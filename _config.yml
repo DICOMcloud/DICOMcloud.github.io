@@ -8,6 +8,5 @@ collections:
   uploads:
     title: Uploads
     output: true
-# theme: jekyll-theme-cayman
 description: Azure friendly DICOMweb part 18 .NET server and client components with
   qido-rs, wado-rs, stow-rs, wado-uri RESTful implementation http://dicomweb.azurewebsites.net/
