@@ -1,6 +1,6 @@
 ---
 title: About DICOMcloud
-permalink: /docs/DICOMcloud/
+permalink: "/docs/DICOMcloud/"
 ---
 
 ---

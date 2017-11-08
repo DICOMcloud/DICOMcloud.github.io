@@ -1,6 +1,6 @@
 ---
 title: Markdown Cheatsheet
-permalink: /docs/cheatsheet/
+permalink: "/docs/cheatsheet/"
 ---
 
 From [adam-p/markdown-here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)

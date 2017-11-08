@@ -1,8 +1,7 @@
 ---
 title: Bootstrap Features
-permalink: /docs/bootstrap/
+permalink: "/docs/bootstrap/"
 ---
-
 
 ## Buttons
 <p>
