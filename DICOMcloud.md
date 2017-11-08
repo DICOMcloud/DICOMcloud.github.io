@@ -1,9 +1,8 @@
-
 ---
+title: About
 layout: page
-title: DICOMcloud
-date: 2017-11-07 03:55:00 Z
 ---
+
 ***
 # Announcement
 This project is now moved from the original [repository](https://github.com/Zaid-Safadi/DICOMcloud) and is now maintained here in its own GitHub Orgnization. 
