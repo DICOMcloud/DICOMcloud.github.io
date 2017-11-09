@@ -3,8 +3,6 @@ title: DICOMcloud HQ.
 layout: docs
 ---
 
-## What is DICOMcloud HQ.?
-
 The DICOMcloud HQ. project is a FREE, Open-Source (MIT license) implementation of the [DICOMweb/WADO ](https://dicomweb.hcintegrations.ca/) protocol to enable the exchange of medical images over the web.
 
 ## Mission
