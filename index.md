@@ -22,13 +22,17 @@ There are currently two main sub-projects of the DICOMcloud project:
 A standalone DICOMweb server with RESTful implementation of the DICOMweb/WADO services:
 
 • QIDO-RS: Query based on ID for DICOM Objects
+
 • STOW-RS: STore Over the Web
+
 • WADO-RS: Web Access to DICOM Objects (newer protocol)
+
 • WADO-URI: Web Access to DICOM Objects (older protocol)
 
 The standalone server doesn't require any existing PACS (DIMSE) to function although it can be integrated with older PACS systems.
 
 Project on GitHub: https://github.com/DICOMcloud/DICOMcloud
+
 Online Server: http://dicomcloud.azurewebsites.net/swagger/
 
 ## DICOMweb-js (client):
@@ -36,7 +40,9 @@ Online Server: http://dicomcloud.azurewebsites.net/swagger/
 A JavaScript library and demo for consuming any DICOMweb enabled server.
 
 The JavaScript library provides web proxies that allow users to initiate requests (qido, stow, wado) to the server, while the demo provide a user interface to perform the queries, store the images and visualize the results.
+
 Project on GitHub: https://github.com/DICOMcloud/DICOMweb-js
+
 Online Demo: http://dicomweb.azurewebsites.net/
 
 ## Integration with other open-source projects:
@@ -46,15 +52,16 @@ In addition to the above two projects, the DICOMcloud project utilizes and integ
 ### Fo-dicom:
 
 Fellow Oak DICOM for .NET, .NET Core, Universal Windows, Android, iOS, Mono and Unity
-
 Project on GitHub: https://github.com/fo-dicom/fo-dicom
 
 ### Cornerstone Viewer:
 
 JavaScript library to display interactive medical images including but not limited to DICOM
+
 Project on GitHub: https://github.com/chafey/cornerstone
 
 ### OHIF Standalone Viewer:
 
 Open Health Imaging Foundation DICOM web viewer
+
 Project on GitHub: https://github.com/OHIF/Viewers
