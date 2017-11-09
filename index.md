@@ -5,13 +5,14 @@ layout: docs
 
 The DICOMcloud project is an open-source (MIT license) implementation of the [DICOMweb/WADO ](https://dicomweb.hcintegrations.ca/) protocol to enable the exchange of medical images over the web.
 
+## Mission
+
+> Provide an affordable, open source tools for developers and health care professionals to support the exchange of medical images using standard formats and protocols by utilizing modern web technologies and the power of the cloud.
+
 ## What is [DICOMweb](https://dicomweb.hcintegrations.ca/)?
 
 > DICOMweb™ is the web standard for medical imaging. It is primarily a set of RESTful services, enabling web developers to unlock the power of healthcare images using industry-renowned toolsets. DICOMweb provides access to underlying imaging systems that speak DICOM, the medical imaging protocol – knowledge of that standard is important to understanding concepts provided in DICOMweb.
 
-## Mission
-
-Provide an affordable, open source tools for developers and health care professionals to support the exchange of medical images using standard formats and protocols by utilizing modern web technologies and the power of the cloud.
 
 ## What is DICOMcloud project?
 
