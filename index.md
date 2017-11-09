@@ -17,7 +17,7 @@ Provide an affordable, open source tools for developers and health care professi
 
 There are currently two main sub-projects of the DICOMcloud project:
 
-### DICOMcloud - Server:
+### DICOMcloud - Server
 
 A standalone DICOMweb server with RESTful implementation of the DICOMweb/WADO services:
 
@@ -49,21 +49,23 @@ Online Demo: [http://dicomweb.azurewebsites.net/](http://dicomweb.azurewebsites.
 
 In addition to the above two projects, the DICOMcloud project utilizes and integrate with other 3rd party open-source projects to complement its functionality.
 
-### Fo-dicom:
+### 1. Fo-dicom
 
 ![fo-dicom.png](/uploads/fo-dicom.png)
 Fellow Oak DICOM for .NET, .NET Core, Universal Windows, Android, iOS, Mono and Unity
-[![github-ico.ico](/uploads/github-ico.ico) https://github.com/fo-dicom/fo-dicom](https://github.com/fo-dicom/fo-dicom)
+![github-ico.ico](/uploads/github-ico.ico)[ https://github.com/fo-dicom/fo-dicom](https://github.com/fo-dicom/fo-dicom)
 
+### 2. Cornerstone Viewer
 
-### Cornerstone Viewer
 ![chafey.jpg](/uploads/chafey.jpg)
 JavaScript library to display interactive medical images including but not limited to DICOM
 
-[![github-ico.ico](/uploads/github-ico.ico) https://github.com/chafey/cornerstone](https://github.com/chafey/cornerstone)
+![github-ico.ico](/uploads/github-ico.ico)[ https://github.com/chafey/cornerstone](https://github.com/chafey/cornerstone)
 
-### OHIF Standalone Viewer
+
+### 3. OHIF Standalone Viewer
+
 ![ohif-logo2.png](/uploads/ohif-logo2.png)
 Open Health Imaging Foundation DICOM web viewer
 
-[![github-ico.ico](/uploads/github-ico.ico) https://github.com/OHIF/Viewers](https://github.com/OHIF/Viewers)
+![github-ico.ico](/uploads/github-ico.ico)[ https://github.com/OHIF/Viewers](https://github.com/OHIF/Viewers)
