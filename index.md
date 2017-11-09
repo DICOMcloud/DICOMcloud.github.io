@@ -9,7 +9,7 @@ The DICOMcloud project is an open-source (MIT license) implementation of the [DI
 
 > DICOMweb™ is the web standard for medical imaging. It is primarily a set of RESTful services, enabling web developers to unlock the power of healthcare images using industry-renowned toolsets. DICOMweb provides access to underlying imaging systems that speak DICOM, the medical imaging protocol – knowledge of that standard is important to understanding concepts provided in DICOMweb.
 
-## Mission:
+## Mission
 
 Provide an affordable, open source tools for developers and health care professionals to support the exchange of medical images using standard formats and protocols by utilizing modern web technologies and the power of the cloud.
 
@@ -17,7 +17,7 @@ Provide an affordable, open source tools for developers and health care professi
 
 There are currently two main sub-projects of the DICOMcloud project:
 
-## DICOMcloud - Server:
+### DICOMcloud - Server:
 
 A standalone DICOMweb server with RESTful implementation of the DICOMweb/WADO services:
 
@@ -35,7 +35,7 @@ The standalone server doesn't require any existing PACS (DIMSE) to function alth
 
 Online Server: [http://dicomcloud.azurewebsites.net/swagger/](http://dicomcloud.azurewebsites.net/swagger/)
 
-## DICOMweb-js - Client:
+### DICOMweb-js - Client
 
 A JavaScript library and demo for consuming any DICOMweb enabled server.
 
@@ -45,7 +45,7 @@ The JavaScript library provides web proxies that allow users to initiate request
 
 Online Demo: [http://dicomweb.azurewebsites.net/](http://dicomweb.azurewebsites.net/)
 
-## Integration with other open-source projects:
+## Integration with other open-source projects
 
 In addition to the above two projects, the DICOMcloud project utilizes and integrate with other 3rd party open-source projects to complement its functionality.
 
@@ -53,18 +53,17 @@ In addition to the above two projects, the DICOMcloud project utilizes and integ
 
 ![fo-dicom.png](/uploads/fo-dicom.png)
 Fellow Oak DICOM for .NET, .NET Core, Universal Windows, Android, iOS, Mono and Unity
-![github-ico.ico](/uploads/github-ico.ico) [https://github.com/fo-dicom/fo-dicom](https://github.com/fo-dicom/fo-dicom)
+[![github-ico.ico](/uploads/github-ico.ico) https://github.com/fo-dicom/fo-dicom](https://github.com/fo-dicom/fo-dicom)
 
-### Cornerstone Viewer:
 
+### Cornerstone Viewer
 ![chafey.jpg](/uploads/chafey.jpg)
 JavaScript library to display interactive medical images including but not limited to DICOM
 
-![github-ico.ico](/uploads/github-ico.ico) [https://github.com/chafey/cornerstone](https://github.com/chafey/cornerstone)
+[![github-ico.ico](/uploads/github-ico.ico) https://github.com/chafey/cornerstone](https://github.com/chafey/cornerstone)
 
-### OHIF Standalone Viewer:
-
+### OHIF Standalone Viewer
 ![ohif-logo2.png](/uploads/ohif-logo2.png)
 Open Health Imaging Foundation DICOM web viewer
 
-![github-ico.ico](/uploads/github-ico.ico) [https://github.com/OHIF/Viewers](https://github.com/OHIF/Viewers)
+[![github-ico.ico](/uploads/github-ico.ico) https://github.com/OHIF/Viewers](https://github.com/OHIF/Viewers)
