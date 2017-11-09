@@ -3,14 +3,6 @@ title: About DICOMcloud
 permalink: "/docs/DICOMcloud/"
 ---
 
----
-
-# Announcement
-
-This project is now moved from the original [repository](https://github.com/Zaid-Safadi/DICOMcloud) and is now maintained here in its own GitHub Orgnization.
-**The  project is now licensed/owned by the DICOMcloud project Contributors. .**
-
----
 
 [![NuGet Pre Release](https://img.shields.io/nuget/vpre/DICOMcloud.Wado.WebApi.svg)](https://www.nuget.org/packages/DICOMcloud.Wado.WebApi/)
 
