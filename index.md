@@ -3,7 +3,7 @@ title: DICOMcloud HQ.
 layout: docs
 ---
 
-## What is DICOMcloud  HQ. project?
+## What is DICOMcloud HQ.?
 
 The DICOMcloud HQ. project is a FREE, Open-Source (MIT license) implementation of the [DICOMweb/WADO ](https://dicomweb.hcintegrations.ca/) protocol to enable the exchange of medical images over the web.
 
@@ -17,7 +17,7 @@ The DICOMcloud HQ. project is a FREE, Open-Source (MIT license) implementation o
 
 ## Projects
 
-There are currently two main sub-projects of the DICOMcloud project:
+There are currently two main sub-projects of the DICOMcloud HQ.:
 
 ### DICOMcloud - Server
 
@@ -31,7 +31,7 @@ A standalone DICOMweb server with RESTful implementation of the DICOMweb/WADO se
 
 • WADO-URI: **W**eb **A**ccess to **D**ICOM **O**bjects (older protocol)
 
-The standalone server doesn't require any existing PACS (DIMSE) to function although it can be integrated with older PACS systems.
+The standalone server doesn't require any existing PACS (DIMSE Servers) to function although it can be integrated with older PACS systems.
 
 Source Code:
 [https://github.com/DICOMcloud/DICOMcloud](https://github.com/DICOMcloud/DICOMcloud)
@@ -55,25 +55,28 @@ Online Demo:
 
 ## Integration with other open-source projects
 
-In addition to the above two projects, the DICOMcloud project utilizes and integrate with other 3rd party open-source projects to complement its functionality.
+In addition to the above two projects, the DICOMcloud HQ. utilizes and integrate with other 3rd party open-source projects to complement its functionality.
 
 ### Fo-dicom
 
 Fellow Oak DICOM for .NET, .NET Core, Universal Windows, Android, iOS, Mono and Unity
 ![fo-dicom.png](/uploads/fo-dicom.png)
-
-![github-ico.ico](/uploads/github-ico.ico)[ https://github.com/fo-dicom/fo-dicom](https://github.com/fo-dicom/fo-dicom)
+source Code:
+[ https://github.com/fo-dicom/fo-dicom](https://github.com/fo-dicom/fo-dicom)
+![github-ico.ico](/uploads/github-ico.ico)
 
 ### Cornerstone Viewer
 
 JavaScript library to display interactive medical images including but not limited to DICOM
 ![chafey.jpg](/uploads/chafey.jpg)
-
-![github-ico.ico](/uploads/github-ico.ico)[ https://github.com/chafey/cornerstone](https://github.com/chafey/cornerstone)
+Source Code:
+[ https://github.com/chafey/cornerstone](https://github.com/chafey/cornerstone)
+![github-ico.ico](/uploads/github-ico.ico)
 
 ### OHIF Standalone Viewer
 
 Open Health Imaging Foundation DICOM web viewer
 ![ohif-logo2.png](/uploads/ohif-logo2.png)
-
-![github-ico.ico](/uploads/github-ico.ico)[ https://github.com/OHIF/Viewers](https://github.com/OHIF/Viewers)
+Source Code:
+[ https://github.com/OHIF/Viewers](https://github.com/OHIF/Viewers)
+![github-ico.ico](/uploads/github-ico.ico)
