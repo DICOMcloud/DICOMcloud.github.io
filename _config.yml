@@ -27,7 +27,7 @@ defaults:
     sectionid: docs
     seo:
       type: WebPage
-baseurl: "/jekyll-doc-theme"
+baseurl: "/"
 url: https://dicomcloud.github.io/
 git_address: https://github.com/DICOMcloud/DICOMcloud.github.io
 git_edit_address: https://github.com/DICOMcloud/DICOMcloud.github.io/blob/master
