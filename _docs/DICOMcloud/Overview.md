@@ -1,12 +1,13 @@
 ---
 title: Overview
-permalink: "/docs/DICOMcloud/Overview"
+permalink: /docs/DICOMcloud/Overview/
 navigation: dicomcloud
 ---
 
+
 The DICOMcloud is a standalone DICOMweb server with RESTful implementation of the DICOMweb/WADO services:
 
-* QIDO-RS: Look up studies, series, images 
+* QIDO-RS: Look up studies, series, images
 
 * WADO-RS: Retrieve studies, series, images, frames and metadata
 
@@ -20,9 +21,7 @@ Additionally, the server implements the following RESTful services which are not
 
 * OHIF-Viewer: Integration service with the OHIF viewer, return OHIF formatted study information (series and instances)
 
-The web server can run as a Web Application in Microsoft IIS or Microsoft Azure WebApp with no infrastructure to setup. It can be configured to use Azure Blob Storage and Azure SQL database for storing and querying DICOM Datasets.
-For complete features reference, read more **“DICOM Support”** section.
-
+The web server can run as a Web Application in Microsoft IIS or Microsoft Azure WebApp with no infrastructure to setup. It can be configured to use Azure Blob Storage and Azure SQL database for storing and querying DICOM Datasets.For complete features reference, read more **“DICOM Support”** section.
 
 # Online Version:
 
