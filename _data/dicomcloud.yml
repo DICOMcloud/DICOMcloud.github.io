@@ -1,19 +1,12 @@
 - title: DICOMcloud
   docs:
-  - DICOMcloud/Overview
-  - SourceCode
-  - DICOMSupport
-  - Endpoints
+    - DICOMcloud/Overview
+    - DICOMcloud/Overview-copy
 - title: Architecture
   docs:
-  - Application
-  - Platform_Hosting
 - title: Customization
   docs:
-  - coming-soon
 - title: Examples
   docs:
-  - coming-soon
 - title: API Documentation
   docs:
-  - coming-soon
