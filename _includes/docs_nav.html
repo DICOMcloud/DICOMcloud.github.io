@@ -1,5 +1,10 @@
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-{% for section in include.nav-data %}
+  {% if page.navigation %}
+  {% assign navPage = site.data[page.navigation] %}
+  {% else %}
+  {% assign navPage = site.data.docs %}
+  {% endif %}
+{% for section in navPage %}
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
