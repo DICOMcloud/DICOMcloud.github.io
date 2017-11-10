@@ -1,4 +1,5 @@
 ---
 title: Endpoints
-permalink: /docs/customization/
+permalink: "/docs/customization/"
 ---
+
