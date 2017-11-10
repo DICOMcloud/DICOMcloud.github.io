@@ -8,7 +8,7 @@ The code is written in C# .NET Framework 4.5.2 and can be built using Visual Stu
 
 The project uses MS SQL Database (Azure SQL Database compatabile) to query the DICOM information and saves the DICOM datasets to either the file system or an Azure Blob Storage.
 
-# #Running the code
+# Running the code
 
 You will need Visual Studio 2017/2015 [(can be downloaded for free here)](https://www.visualstudio.com/). Open the solution file **DICOMcloud.sln** on the root directory, if not already selected as the StartUp Project, right click on the **"DICOMcloud.Wado.WebApi"** project and select **"Set as startup project"** then run the solution by pressting **F5**.
 
