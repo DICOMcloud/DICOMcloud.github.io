@@ -1,9 +1,7 @@
 ---
 title: DICOM Support
-
 navigation: dicomcloud
 ---
-
 
 The tables below describes the DICOMweb featrues currently implemented in the DICOMcloud project.
 
