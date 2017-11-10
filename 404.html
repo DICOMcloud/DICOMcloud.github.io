@@ -6,10 +6,9 @@ layout: default
   var allposts = [];  
 function redirectToCorrectPage() {  
 	{% for post in site.docs %}  
-		allposts.push("{{ site.url }}{{ post.url }}");  
+		allposts.push("{{ site.url.replace(/\/+$/, "") }}{{ post.url }}");  
 	{% endfor %}  
 	var url = window.location.toString();  
-	url = url.replace("//docs", "/docs");  
 	
 	var allpostsUpperCase = allposts.map(function(value) {  
 		return value.toUpperCase();  
