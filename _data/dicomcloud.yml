@@ -1,7 +1,6 @@
 - title: DICOMcloud
   docs:
     - DICOMcloud/Overview
-    - DICOMcloud/Overview-copy
 - title: Architecture
   docs:
 - title: Customization
