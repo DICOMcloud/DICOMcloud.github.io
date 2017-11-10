@@ -4,7 +4,6 @@ permalink: "/docs/DICOMcloud/"
 navigation: dicomcloud
 ---
 
-
 [![NuGet Pre Release](https://img.shields.io/nuget/vpre/DICOMcloud.Wado.WebApi.svg)](https://www.nuget.org/packages/DICOMcloud.Wado.WebApi/)
 
 # Overview
