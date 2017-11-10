@@ -5,7 +5,7 @@ collections:
   docs:
     title: Docs
     output: true
-    permalink: "/docs/:path/"
+    permalink: "docs/:path/"
   posts:
     title: Posts
     output: true
