@@ -2,8 +2,8 @@
   docs:
   - DICOMcloud/Overview
   - DICOMcloud/SourceCode
-  - DICOMSupport
-  - Endpoints
+  - DICOMcloud/DICOMSupport
+  - DICOMcloud/Endpoints
 - title: Architecture
   docs:
   - Application
