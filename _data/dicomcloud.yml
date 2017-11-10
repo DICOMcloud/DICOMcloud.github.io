@@ -1,11 +1,17 @@
-- title: Overview
+- title: DICOMcloud
   docs:
-  - DICOMcloud
-  - themes
-  - customization
-
+  - Overview
+  - SourceCode
+  - DICOMSupport
+  - Endpoints
+- title: Architecture
+  docs:
+  - Application
+  - Platform_Hosting
+- title: Customization
+  docs:
 - title: Examples
   docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+- API Documentation
+  docs:
+  
