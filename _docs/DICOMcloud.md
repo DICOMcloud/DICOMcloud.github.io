@@ -1,6 +1,7 @@
 ---
 title: About DICOMcloud
 permalink: "/docs/DICOMcloud/"
+navigation: dicomcloud
 ---
 
 
