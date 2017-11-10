@@ -1,9 +1,8 @@
 ---
 title: Overview
-permalink: /docs/DICOMcloud/Overview/
+permalink: "/docs/DICOMcloud/Overview/"
 navigation: dicomcloud
 ---
-
 
 The DICOMcloud is a standalone DICOMweb server with RESTful implementation of the DICOMweb/WADO services:
 
