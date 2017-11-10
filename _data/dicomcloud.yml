@@ -1,6 +1,6 @@
 - title: DICOMcloud
   docs:
-  - Overview
+  - DICOMcloud/Overview
   - SourceCode
   - DICOMSupport
   - Endpoints
