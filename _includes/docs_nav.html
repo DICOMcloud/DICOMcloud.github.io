@@ -24,4 +24,8 @@
     </div>
   </div>
 {% endfor %}
+  
+          {% for docu in site.docs %}
+          {{ docu.url }}
+        {% endfor %}
 </div>
