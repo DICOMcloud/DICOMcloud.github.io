@@ -61,16 +61,16 @@ Fellow Oak DICOM for .NET, .NET Core, Universal Windows, Android, iOS, Mono and 
 
 ---
 
-### Cornerstone Viewer
-
-![github-ico.ico](/uploads/github-ico.ico)
-JavaScript library to display interactive medical images including but not limited to DICOM
-![chafey.jpg](/uploads/chafey.jpg)
-
----
-
 ### OHIF Standalone Viewer
 
 [ ](https://github.com/OHIF/Viewers)![github-ico.ico](/uploads/github-ico.ico)
 Open Health Imaging Foundation DICOM web viewer
 ![ohif-logo2.png](/uploads/ohif-logo2.png)
+
+---
+
+### Cornerstone Viewer
+
+![github-ico.ico](/uploads/github-ico.ico)
+JavaScript library to display interactive medical images including but not limited to DICOM
+
