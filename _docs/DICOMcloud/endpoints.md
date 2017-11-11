@@ -1,11 +1,5 @@
 ---
-title: Endpoints
-permalink: "/docs/customization/"
----
-
----
-title: About DICOMcloud
-
+title: Server Endpoints
 navigation: dicomcloud
 ---
 
