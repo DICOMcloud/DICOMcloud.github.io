@@ -3,7 +3,6 @@ title: Architecture
 navigation: dicomcloud
 ---
 
-The DICOMcloud web server can run as a Web Application in Microsoft IIS or Microsoft Azure WebApp with no infrastructure to setup. It can be configured to use Azure Blob Storage and Azure SQL database for storing and querying DICOM Datasets.For complete features reference, read more “DICOM Support” section.
 
 The implementation is customizable by using [StructureMap](https://github.com/structuremap/structuremap) as a DI (Dependency Injection) framework to provide a plug-in architecture.
 
@@ -19,3 +18,12 @@ Each layer of the server is packaged on its own NuGet package such that it cab b
 | **Data Storage and Data Access** [![NuGet Pre Release](https://img.shields.io/nuget/vpre/DICOMcloud.DataAccess.Database.svg)](https://www.nuget.org/packages/DICOMcloud.DataAccess.Database/) & [![NuGet Pre Release](https://img.shields.io/nuget/vpre/DICOMcloud.Azure.svg)](https://www.nuget.org/packages/DICOMcloud.Azure/)| The specific implementation layer that physically save the DICOM dataset media to a file system or Azure Blob and interface with Microsoft/Azure SQL database. | DICOMcloud<br>DICOMcloud.Azure<br>DICOMcloud.DataAccess.Database |
 
 ![DICOMcloud Architecture](https://raw.githubusercontent.com/DICOMcloud/DICOMcloud/master/Resources/Docs/DICOMcloud-Arch..png)
+
+## Platform and Hosting Options
+
+* The server can run as a Web Application in Microsoft IIS, or 
+* Microsoft Azure WebApp with no infrastructure to setup. 
+
+It can be configured to use 
+* Azure Blob Storage and Azure SQL database for storing and querying DICOM Datasets, or
+* A Windows File System with on-prem SQL Database.
