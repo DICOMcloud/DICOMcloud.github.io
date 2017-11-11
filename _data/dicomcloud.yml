@@ -1,13 +1,10 @@
 - title: DICOMcloud
   docs:
   - dicomcloud/overview
+  - dicomcloud/architecture
   - dicomcloud/sourcecode
   - dicomcloud/dicom-support
   - dicomcloud/endpoints
-- title: Architecture
-  docs:
-  - dicomcloud/architecture
-  - dicomcloud/platform-hosting
 - title: Customization
   docs:
   - coming-soon
