@@ -18,6 +18,10 @@ The DICOMcloud HQ. project is a FREE, Open-Source (MIT license) implementation o
 There are currently two main sub-projects of the DICOMcloud HQ.:
 
 ### DICOMcloud - Server
+[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/DICOMcloud/DICOMcloud)
+
+Online Server:
+[http://dicomcloud.azurewebsites.net/swagger/](http://dicomcloud.azurewebsites.net/swagger/)
 
 A standalone DICOMweb server with RESTful implementation of the DICOMweb/WADO services:
 
@@ -31,49 +35,35 @@ A standalone DICOMweb server with RESTful implementation of the DICOMweb/WADO se
 
 The standalone server doesn't require any existing PACS (DIMSE Servers) to function although it can be integrated with older PACS systems.
 
-Source Code:
-[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/DICOMcloud/DICOMcloud)
-
-
-Online Server:
-[http://dicomcloud.azurewebsites.net/swagger/](http://dicomcloud.azurewebsites.net/swagger/)
 
 ### DICOMweb-js - Client
-
-A JavaScript library and demo for consuming any DICOMweb enabled server.
-
-The JavaScript library provides web proxies that allow users to initiate requests (**qido, stow, wado**) to the server, while the demo provide a user interface to perform the queries, store the images and visualize the results.
 
 Source Code:
 [![github-ico.ico](/uploads/github-ico.ico)](https://github.com/DICOMcloud/DICOMweb-js)
 
-
 Online Demo:
 [http://dicomweb.azurewebsites.net/](http://dicomweb.azurewebsites.net/)
+
+A JavaScript library and demo for consuming any DICOMweb enabled server.
+
+The JavaScript library provides web proxies that allow users to initiate requests (**qido, stow, wado**) to the server, while the demo provide a user interface to perform the queries, store the images and visualize the results.
 
 ## Integration with other open-source projects
 
 In addition to the above two projects, the DICOMcloud HQ. utilizes and integrate with other 3rd party open-source projects to complement its functionality.
 
 ### Fo-dicom
-
+[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/fo-dicom/fo-dicom)
 Fellow Oak DICOM for .NET, .NET Core, Universal Windows, Android, iOS, Mono and Unity
 ![fo-dicom.png](/uploads/fo-dicom.png)
-source Code:
-[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/fo-dicom/fo-dicom)
 
 
 ### Cornerstone Viewer
-
+[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/chafey/cornerstone)
 JavaScript library to display interactive medical images including but not limited to DICOM
 ![chafey.jpg](/uploads/chafey.jpg)
-Source Code:
-[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/chafey/cornerstone)
-
 
 ### OHIF Standalone Viewer
-
+[ ![github-ico.ico](/uploads/github-ico.ico)](https://github.com/OHIF/Viewers)
 Open Health Imaging Foundation DICOM web viewer
 ![ohif-logo2.png](/uploads/ohif-logo2.png)
-Source Code:
-[ ![github-ico.ico](/uploads/github-ico.ico)](https://github.com/OHIF/Viewers)
