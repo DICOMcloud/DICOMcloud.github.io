@@ -1,11 +1,4 @@
-- title: DICOMcloud
+- title: Projects
   docs:
-  - DICOMcloud
-  - themes
-  - customization
-
-- title: Examples
-  docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+  - dicomcloud/overview
+  - dicomcloud/sourcecode
