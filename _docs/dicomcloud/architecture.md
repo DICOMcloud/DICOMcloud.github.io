@@ -3,8 +3,7 @@ title: Architecture
 navigation: dicomcloud
 ---
 
-
-The implementation is customizable by using [StructureMap](https://github.com/structuremap/structuremap) as a DI (Dependency Injection) framework to provide a plug-in architecture.
+Most components of the server are customizable using [StructureMap](https://github.com/structuremap/structuremap) as a DI (Dependency Injection) framework to provide a plug-in architecture.
 
 ## The main layers of the DICOMcloud
 
@@ -21,9 +20,12 @@ Each layer of the server is packaged on its own NuGet package such that it cab b
 
 ## Platform and Hosting Options
 
-* The server can run as a Web Application in Microsoft IIS, or 
-* Microsoft Azure WebApp with no infrastructure to setup. 
+* The server can run as a Web Application in Microsoft IIS, or
 
-It can be configured to use 
+* Microsoft Azure WebApp with no infrastructure to setup.
+
+It can be configured to use
+
 * Azure Blob Storage and Azure SQL database for storing and querying DICOM Datasets, or
+
 * A Windows File System with on-prem SQL Database.
