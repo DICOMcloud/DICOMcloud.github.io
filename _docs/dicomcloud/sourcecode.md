@@ -5,15 +5,16 @@ navigation: dicomcloud
 
 The code is written in C# .NET Framework v4.5.2, it can be built using Visual Studio 2017 and run on Windows machine or Azure WebApp (PaaS).
 
-The project uses MS SQL Database (Azure SQL Database compatible) to query the DICOM information and can be configured to save the DICOM datasets to either a file system or an Azure Blob Storage.
+You can download the source code from the GitHub repository on:
+[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/DICOMcloud/DICOMcloud)
 
 # Running the code
 
-1. You will need Visual Studio 2017/2015 [(can be downloaded for free here)](https://www.visualstudio.com/). 
+1. You will need Visual Studio 2017/2015 [(can be downloaded for free here)](https://www.visualstudio.com/).
 
-2.  Open the solution file **DICOMcloud.sln** on the root directory. 
+2. Open the solution file **DICOMcloud.sln** on the root directory.
 
-3. If not already selected as the StartUp Project, right click on the **"DICOMcloud.Wado.WebApi"** project and select **"Set as startup project"** 
+3. If not already selected as the StartUp Project, right click on the **"DICOMcloud.Wado.WebApi"** project and select **"Set as startup project"**
 
 4. Run the solution by pressing **F5**.
 
@@ -21,7 +22,7 @@ Once you run the project:
 
 * The DICOMweb server will run on ***https://localhost:44301/***
 
-* The default settings will attach an empty database to your local SQL DB server installed with Visual Studio **(LocalDb)\\MSSQLLocalDB** 
+* The default settings will attach an empty database to your local SQL DB server installed with Visual Studio **(LocalDb)\\MSSQLLocalDB**
 
 * The images will be written to a directory under the **"App_Data"** folder.
 
