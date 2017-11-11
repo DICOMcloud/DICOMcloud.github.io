@@ -1,4 +1,5 @@
 ---
 title: coming-soon
-permalink: /docs/customization/
+permalink: "/docs/customization/"
 ---
+
