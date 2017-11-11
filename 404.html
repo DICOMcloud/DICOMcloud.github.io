@@ -6,8 +6,8 @@ layout: default
   var allposts = [];  
 function redirectToCorrectPage() {  
 	{% for post in site.docs %}  
-    <% assign postUrl = {{ post.url | replace_first: "/", "" }}  %>
-	  allposts.push("{{ site.url }}{{ postUrl }}" );  
+    <% assign postUrl1 = {{ post.url | replace_first: "/", "" }}  %>
+	  allposts.push("{{ site.url }}{{ postUrl1 }}" );  
 	{% endfor %}  
 	var url = window.location.toString();  
 	
