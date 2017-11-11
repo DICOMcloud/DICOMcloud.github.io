@@ -4,15 +4,27 @@ permalink: "/docs/DICOMcloud/sourcecode/"
 navigation: dicomcloud
 ---
 
-The code is written in C# .NET Framework 4.5.2 and can be built using Visual Studio 2017 and can run on Windows machine or Azure WebApp.
+The code is written in C# .NET Framework v4.5.2, it can be built using Visual Studio 2017 and run on Windows machine or Azure WebApp (PaaS).
 
-The project uses MS SQL Database (Azure SQL Database compatabile) to query the DICOM information and saves the DICOM datasets to either the file system or an Azure Blob Storage.
+The project uses MS SQL Database (Azure SQL Database compatible) to query the DICOM information and can be configured to saves the DICOM datasets to either a file system or an Azure Blob Storage.
 
 # Running the code
 
-You will need Visual Studio 2017/2015 [(can be downloaded for free here)](https://www.visualstudio.com/). Open the solution file **DICOMcloud.sln** on the root directory, if not already selected as the StartUp Project, right click on the **"DICOMcloud.Wado.WebApi"** project and select **"Set as startup project"** then run the solution by pressting **F5**.
+1. You will need Visual Studio 2017/2015 [(can be downloaded for free here)](https://www.visualstudio.com/). 
 
-Once you run the project, the DICOMweb server will run on *https://localhost:44301/* and the default settings will attach an empty database to your local SQL DB server installed with Visual Studio **(LocalDb)\\MSSQLLocalDB** and the images will be written to a directory under the **"App_Data"** folder.
+2.  Open the solution file **DICOMcloud.sln** on the root directory. 
+
+3. If not already selected as the StartUp Project, right click on the **"DICOMcloud.Wado.WebApi"** project and select **"Set as startup project"** 
+
+4. Run the solution by pressing **F5**.
+
+Once you run the project:
+
+* The DICOMweb server will run on ***https://localhost:44301/***** **
+
+* The default settings will attach an empty database to your local SQL DB server installed with Visual Studio **(LocalDb)\\MSSQLLocalDB** 
+
+* The images will be written to a directory under the **"App_Data"** folder.
 
 You can change these settings from the [web.config](https://github.com/DICOMcloud/DICOMcloud/blob/master/DICOMcloud.Wado.WebApi/Web.config) by updating the two values under the *appSettings* section:
 
