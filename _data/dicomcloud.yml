@@ -1,6 +1,6 @@
 - title: DICOMcloud
   docs:
-  - dicomcloud/overview
+  - dicomcloud/about
   - dicomcloud/architecture
   - dicomcloud/sourcecode
   - dicomcloud/dicom-support
