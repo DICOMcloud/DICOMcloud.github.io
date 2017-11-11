@@ -18,7 +18,8 @@ The DICOMcloud HQ. project is a FREE, Open-Source (MIT license) implementation o
 There are currently two main sub-projects of the DICOMcloud HQ.:
 
 ### DICOMcloud - Server
-[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/DICOMcloud/DICOMcloud)
+
+![github-ico.ico](/uploads/github-ico.ico)
 
 Online Server:
 [http://dicomcloud.azurewebsites.net/swagger/](http://dicomcloud.azurewebsites.net/swagger/)
@@ -35,11 +36,11 @@ A standalone DICOMweb server with RESTful implementation of the DICOMweb/WADO se
 
 The standalone server doesn't require any existing PACS (DIMSE Servers) to function although it can be integrated with older PACS systems.
 
+---
 
 ### DICOMweb-js - Client
 
-Source Code:
-[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/DICOMcloud/DICOMweb-js)
+![github-ico.ico](/uploads/github-ico.ico)
 
 Online Demo:
 [http://dicomweb.azurewebsites.net/](http://dicomweb.azurewebsites.net/)
@@ -53,17 +54,23 @@ The JavaScript library provides web proxies that allow users to initiate request
 In addition to the above two projects, the DICOMcloud HQ. utilizes and integrate with other 3rd party open-source projects to complement its functionality.
 
 ### Fo-dicom
-[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/fo-dicom/fo-dicom)
+
+![github-ico.ico](/uploads/github-ico.ico)
 Fellow Oak DICOM for .NET, .NET Core, Universal Windows, Android, iOS, Mono and Unity
 ![fo-dicom.png](/uploads/fo-dicom.png)
 
+---
 
 ### Cornerstone Viewer
-[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/chafey/cornerstone)
+
+![github-ico.ico](/uploads/github-ico.ico)
 JavaScript library to display interactive medical images including but not limited to DICOM
 ![chafey.jpg](/uploads/chafey.jpg)
 
+---
+
 ### OHIF Standalone Viewer
-[ ![github-ico.ico](/uploads/github-ico.ico)](https://github.com/OHIF/Viewers)
+
+[ ](https://github.com/OHIF/Viewers)![github-ico.ico](/uploads/github-ico.ico)
 Open Health Imaging Foundation DICOM web viewer
 ![ohif-logo2.png](/uploads/ohif-logo2.png)
