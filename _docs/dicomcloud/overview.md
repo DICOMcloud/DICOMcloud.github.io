@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: About DICOMcloud
 sectionid: DICOMcloud
 navigation: dicomcloud
 ---
