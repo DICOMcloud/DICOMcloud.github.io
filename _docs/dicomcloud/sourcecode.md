@@ -1,6 +1,5 @@
 ---
 title: Source Code
-permalink: "/docs/DICOMcloud/sourcecode/"
 navigation: dicomcloud
 ---
 
