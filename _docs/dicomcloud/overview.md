@@ -3,7 +3,6 @@ title: Overview
 navigation: dicomcloud
 ---
 
-
 The DICOMcloud is a standalone DICOMweb server with RESTful implementation of the DICOMweb/WADO services:
 
 * **QIDO-RS:** Look up studies, series, images
