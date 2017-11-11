@@ -6,7 +6,7 @@ layout: default
   var allposts = [];  
 function redirectToCorrectPage() {  
 	{% for post in site.docs %}  
-	  allposts.push("{{ site.url }}{{ post.url | replace: '//', '/' }}");  
+	  allposts.push("{{ site.url }}{{ post.url }}" | replace: '//docs','/docs');  
 	{% endfor %}  
 	var url = window.location.toString();  
 	
