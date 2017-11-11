@@ -5,7 +5,7 @@ navigation: dicomcloud
 
 The code is written in C# .NET Framework v4.5.2, it can be built using Visual Studio 2017 and run on Windows machine or Azure WebApp (PaaS).
 
-The project uses MS SQL Database (Azure SQL Database compatible) to query the DICOM information and can be configured to saves the DICOM datasets to either a file system or an Azure Blob Storage.
+The project uses MS SQL Database (Azure SQL Database compatible) to query the DICOM information and can be configured to save the DICOM datasets to either a file system or an Azure Blob Storage.
 
 # Running the code
 
@@ -19,7 +19,7 @@ The project uses MS SQL Database (Azure SQL Database compatible) to query the DI
 
 Once you run the project:
 
-* The DICOMweb server will run on ***https://localhost:44301/***** **
+* The DICOMweb server will run on ***https://localhost:44301/***
 
 * The default settings will attach an empty database to your local SQL DB server installed with Visual Studio **(LocalDb)\\MSSQLLocalDB** 
 
