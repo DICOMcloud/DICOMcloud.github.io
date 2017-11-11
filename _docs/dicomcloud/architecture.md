@@ -6,7 +6,7 @@ navigation: dicomcloud
 
 Most components of the server are customizable using [StructureMap](https://github.com/structuremap/structuremap) as a DI (Dependency Injection) framework to provide a plug-in architecture.
 
-## The main layers of the DICOMcloud
+## Application Layers
 
 Each layer of the server is packaged on its own NuGet package such that it cab be easily integrated into your application.
 
