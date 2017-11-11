@@ -3,7 +3,6 @@ title: Architecture
 navigation: dicomcloud
 ---
 
-
 The DICOMcloud web server can run as a Web Application in Microsoft IIS or Microsoft Azure WebApp with no infrastructure to setup. It can be configured to use Azure Blob Storage and Azure SQL database for storing and querying DICOM Datasets.For complete features reference, read more “DICOM Support” section.
 
 The implementation is customizable by using [StructureMap](https://github.com/structuremap/structuremap) as a DI (Dependency Injection) framework to provide a plug-in architecture.
