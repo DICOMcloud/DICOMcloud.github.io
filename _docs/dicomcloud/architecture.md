@@ -1,5 +1,6 @@
 ---
 title: Architecture
+sectionid: DICOMcloud
 navigation: dicomcloud
 ---
 
