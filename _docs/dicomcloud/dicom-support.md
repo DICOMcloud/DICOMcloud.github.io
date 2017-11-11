@@ -1,5 +1,6 @@
 ---
 title: DICOM Support
+sectionid: DICOMcloud
 navigation: dicomcloud
 ---
 
