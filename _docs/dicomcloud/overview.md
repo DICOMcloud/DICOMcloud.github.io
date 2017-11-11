@@ -1,6 +1,5 @@
 ---
 title: Overview
-permalink: "/docs/DICOMcloud/Overview/"
 navigation: dicomcloud
 ---
 
