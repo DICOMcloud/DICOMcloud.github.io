@@ -32,8 +32,8 @@ A standalone DICOMweb server with RESTful implementation of the DICOMweb/WADO se
 The standalone server doesn't require any existing PACS (DIMSE Servers) to function although it can be integrated with older PACS systems.
 
 Source Code:
-[https://github.com/DICOMcloud/DICOMcloud](https://github.com/DICOMcloud/DICOMcloud)
-![github-ico.ico](/uploads/github-ico.ico)
+[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/DICOMcloud/DICOMcloud)
+
 
 Online Server:
 [http://dicomcloud.azurewebsites.net/swagger/](http://dicomcloud.azurewebsites.net/swagger/)
@@ -45,8 +45,8 @@ A JavaScript library and demo for consuming any DICOMweb enabled server.
 The JavaScript library provides web proxies that allow users to initiate requests (**qido, stow, wado**) to the server, while the demo provide a user interface to perform the queries, store the images and visualize the results.
 
 Source Code:
-[https://github.com/DICOMcloud/DICOMweb-js](https://github.com/DICOMcloud/DICOMweb-js)
-![github-ico.ico](/uploads/github-ico.ico)
+[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/DICOMcloud/DICOMweb-js)
+
 
 Online Demo:
 [http://dicomweb.azurewebsites.net/](http://dicomweb.azurewebsites.net/)
@@ -60,21 +60,20 @@ In addition to the above two projects, the DICOMcloud HQ. utilizes and integrate
 Fellow Oak DICOM for .NET, .NET Core, Universal Windows, Android, iOS, Mono and Unity
 ![fo-dicom.png](/uploads/fo-dicom.png)
 source Code:
-[ https://github.com/fo-dicom/fo-dicom](https://github.com/fo-dicom/fo-dicom)
-![github-ico.ico](/uploads/github-ico.ico)
+[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/fo-dicom/fo-dicom)
+
 
 ### Cornerstone Viewer
 
 JavaScript library to display interactive medical images including but not limited to DICOM
 ![chafey.jpg](/uploads/chafey.jpg)
 Source Code:
-[ https://github.com/chafey/cornerstone](https://github.com/chafey/cornerstone)
-![github-ico.ico](/uploads/github-ico.ico)
+[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/chafey/cornerstone)
+
 
 ### OHIF Standalone Viewer
 
 Open Health Imaging Foundation DICOM web viewer
 ![ohif-logo2.png](/uploads/ohif-logo2.png)
 Source Code:
-[ https://github.com/OHIF/Viewers](https://github.com/OHIF/Viewers)
-![github-ico.ico](/uploads/github-ico.ico)
+[ ![github-ico.ico](/uploads/github-ico.ico)](https://github.com/OHIF/Viewers)
