@@ -1,5 +1,6 @@
 ---
 title: Server Endpoints
+sectionid: DICOMcloud
 navigation: dicomcloud
 ---
 
