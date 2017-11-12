@@ -4,34 +4,40 @@ Title: XML Conversion
 navigation: dicomcloud
 ---
 
-using Dicom;
 
-namespace DICOMcloud.Examples
-{
-    class XmlConversion
+```cs
+
+    using Dicom;
+
+    namespace DICOMcloud.Examples
     {
-        public void ConvertToXml ( string sourceDicomFile, string destinationXmlFile )
+        class XmlConversion
         {
-            XmlDicomConverter xmlConverter = new XmlDicomConverter ( ) { WriteInlineBinary = true };
+            public void ConvertToXml ( string sourceDicomFile, string destinationXmlFile )
+            {
+                XmlDicomConverter xmlConverter = new XmlDicomConverter ( ) { WriteInlineBinary = true };
             
-            DicomDataset sourceDS = DicomFile.Open ( sourceDicomFile ).Dataset ;
+                DicomDataset sourceDS = DicomFile.Open ( sourceDicomFile ).Dataset ;
                 
-            string sourceXmlDicom = xmlConverter.Convert  (sourceDS) ;
+                string sourceXmlDicom = xmlConverter.Convert  (sourceDS) ;
 
-            System.IO.File.WriteAllText ( destinationXmlFile, sourceXmlDicom ) ;
-        }
+                System.IO.File.WriteAllText ( destinationXmlFile, sourceXmlDicom ) ;
+            }
 
-        public void ConvertFromXml ( string sourceXmlFile, string destinationDicomFile )
-        {
-            XmlDicomConverter xmlConverter = new XmlDicomConverter ( ) ;
+            public void ConvertFromXml ( string sourceXmlFile, string destinationDicomFile )
+            {
+                XmlDicomConverter xmlConverter = new XmlDicomConverter ( ) ;
             
-            string xmlDataset = System.IO.File.ReadAllText ( sourceXmlFile ) ;
+                string xmlDataset = System.IO.File.ReadAllText ( sourceXmlFile ) ;
             
-            DicomDataset dataset = xmlConverter.Convert  (xmlDataset) ;
+                DicomDataset dataset = xmlConverter.Convert  (xmlDataset) ;
 
-            DicomFile dsF = new DicomFile (dataset) ;
+                DicomFile dsF = new DicomFile (dataset) ;
 
-            dsF.Save (destinationDicomFile) ;
+                dsF.Save (destinationDicomFile) ;
+            }
         }
     }
-}
+
+
+```
