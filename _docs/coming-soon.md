@@ -2,4 +2,4 @@
 title: coming soon
 ---
 
-### coming soon!
+### coming soon...
