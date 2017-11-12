@@ -5,12 +5,9 @@
   - dicomcloud/sourcecode
   - dicomcloud/dicom-support
   - dicomcloud/endpoints
-- title: Customization
-  docs:
-  - dicomcloud/coming-soon
 - title: Examples
   docs:
-  - dicomcloud/coming-soon
+  - dicomcloud/xmlconvert
 - title: API Documentation
   docs:
   - dicomcloud/coming-soon
