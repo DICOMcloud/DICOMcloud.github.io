@@ -1,6 +1,5 @@
 ---
-title: Xmlconvert
-Title: XML Conversion
+title: XML Conversion
 navigation: dicomcloud
 ---
 
@@ -10,7 +9,7 @@ navigation: dicomcloud
 
     namespace DICOMcloud.Examples
     {
-        class XmlConversion
+        class XmlConversionExample
         {
             public void ConvertToXml ( string sourceDicomFile, string destinationXmlFile )
             {
