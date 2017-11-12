@@ -19,7 +19,7 @@ There are currently two main sub-projects of the DICOMcloud HQ.:
 
 ### DICOMcloud - Server
 
-![github-ico.ico](/uploads/github-ico.ico)
+[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/DICOMcloud/DICOMcloud)
 
 Online Server:
 [http://dicomcloud.azurewebsites.net/swagger/](http://dicomcloud.azurewebsites.net/swagger/)
@@ -40,7 +40,7 @@ The standalone server doesn't require any existing PACS (DIMSE Servers) to funct
 
 ### DICOMweb-js - Client
 
-![github-ico.ico](/uploads/github-ico.ico)
+[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/DICOMcloud/DICOMweb-js)
 
 Online Demo:
 [http://dicomweb.azurewebsites.net/](http://dicomweb.azurewebsites.net/)
@@ -55,7 +55,7 @@ In addition to the above two projects, the DICOMcloud HQ. utilizes and integrate
 
 ### Fo-dicom
 
-![github-ico.ico](/uploads/github-ico.ico)
+[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/fo-dicom/fo-dicom)
 Fellow Oak DICOM for .NET, .NET Core, Universal Windows, Android, iOS, Mono and Unity
 ![fo-dicom.png](/uploads/fo-dicom.png)
 
@@ -63,7 +63,7 @@ Fellow Oak DICOM for .NET, .NET Core, Universal Windows, Android, iOS, Mono and 
 
 ### OHIF Standalone Viewer
 
-[ ](https://github.com/OHIF/Viewers)![github-ico.ico](/uploads/github-ico.ico)
+[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/OHIF/Viewers)
 Open Health Imaging Foundation DICOM web viewer
 ![ohif-logo2.png](/uploads/ohif-logo2.png)
 
@@ -71,6 +71,6 @@ Open Health Imaging Foundation DICOM web viewer
 
 ### Cornerstone Viewer
 
-![github-ico.ico](/uploads/github-ico.ico)
+[![github-ico.ico](/uploads/github-ico.ico)](https://github.com/chafey/cornerstone)
 JavaScript library to display interactive medical images including but not limited to DICOM
 
