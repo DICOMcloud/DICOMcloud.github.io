@@ -4,7 +4,6 @@ Title: XML Conversion
 navigation: dicomcloud
 ---
 
-
 ```cs
 
     using Dicom;
