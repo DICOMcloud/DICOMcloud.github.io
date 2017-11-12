@@ -8,6 +8,7 @@
 - title: Examples
   docs:
   - dicomcloud/xmlconvert
+  - dicomcloud/jsonconvert
 - title: API Documentation
   docs:
   - dicomcloud/coming-soon
