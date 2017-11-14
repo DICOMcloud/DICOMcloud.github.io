@@ -8,6 +8,7 @@
 - title: Examples
   docs:
   - dicomcloud/qido
+  - dicomcloud/wadouri
   - dicomcloud/xmlconvert
   - dicomcloud/jsonconvert
 - title: API Documentation
