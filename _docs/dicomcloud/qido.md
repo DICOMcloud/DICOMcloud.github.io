@@ -1,11 +1,8 @@
 ---
-title: Qido
+title: QIDO-RS Example
+navigation: dicomcloud
 ---
 
----
-title: QIDO-RS Example
-navigation: dicomweb
-----
 
 ```cs
 
