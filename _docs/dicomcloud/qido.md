@@ -3,6 +3,9 @@ title: QIDO-RS Example
 navigation: dicomcloud
 ---
 
+C# .NET Example:
+Query Studies with patient name like 'dcloud'
+
 ```cs
 
 using System;
@@ -36,9 +39,11 @@ namespace DICOMcloud.Examples
 
 ```
 
+Request Details:
+
 ```js
 
-Request URL: https://dicomcloud.azurewebsites.net/qidors/studies?00200010=&00080020=&00100010=dcloud&00100020=
+Request URL: https://dicomcloud.azurewebsites.net/qidors/studies?00100010=dcloud&00100020=
 Request Method: GET
 Accept: application/dicom+json
 
