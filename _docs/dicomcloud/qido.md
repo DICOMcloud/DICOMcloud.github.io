@@ -1,4 +1,8 @@
 ---
+title: Qido
+---
+
+---
 title: QIDO-RS Example
 navigation: dicomweb
 ----
