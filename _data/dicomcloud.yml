@@ -7,6 +7,7 @@
   - dicomcloud/endpoints
 - title: Examples
   docs:
+  - dicomcloud/qido
   - dicomcloud/xmlconvert
   - dicomcloud/jsonconvert
 - title: API Documentation
