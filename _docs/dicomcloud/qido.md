@@ -3,7 +3,6 @@ title: QIDO-RS Example
 navigation: dicomcloud
 ---
 
-
 ```cs
 
 using System;
