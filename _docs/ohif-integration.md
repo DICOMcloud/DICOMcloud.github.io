@@ -6,41 +6,26 @@ The [standalone OHIF viewer](https://github.com/OHIF/Viewers)  supports passing 
 
 The DICOMcloud implemented a REST API that supports providing the JSON data expected by the viewer to display an entire study.
 
-A StudyInstanceUID is the only parameter needed to call this input, e.g.: 
-[https://dicomcloud.azurewebsites.net//ohif/study/1.2.392.200036.9116.2.6.1.3268.2051314020.1461904638.200374/series](https://dicomcloud.azurewebsites.net//ohif/study/1.2.392.200036.9116.2.6.1.3268.2051314020.1461904638.200374/series)
+A StudyInstanceUID is the only parameter needed to call this input, e.g.:
+[https://dicomcloud.azurewebsites.net//ohif/study/1.2.276.0.7230010.3.1.3.3969987548.1736.1477529664.531/series](https://dicomcloud.azurewebsites.net//ohif/study/1.2.276.0.7230010.3.1.3.3969987548.1736.1477529664.531/series)
 
 ```json
 
 {  
-   "transactionId":"2d84d174-cb27-407e-9ea4-ad61ea1cd3d3",
+   "transactionId":"593d2021-0998-4f52-93ce-1025ccb558f1",
    "studies":[  
       {  
-         "studyInstanceUid":"1.2.392.200036.9116.2.6.1.3268.2051314020.1461904638.200374",
+         "studyInstanceUid":"1.2.276.0.7230010.3.1.3.3969987548.1736.1477529664.531",
          "patientName":"Dcloud^Anonymized",
          "seriesList":[  
             {  
-               "seriesInstanceUid":"1.2.392.200036.9116.2.6.1.3268.2051314020.1461904639.541937",
+               "seriesInstanceUid":"1.3.12.2.1107.5.1.4.59001.30000016102701304708400000484",
                "seriesDescription":"",
                "instances":[  
                   {  
-                     "sopInstanceUid":"1.2.392.200036.9116.2.6.1.3268.2051314020.1461897481.951895",
+                     "sopInstanceUid":"1.3.12.2.1107.5.1.4.59001.30000016102701304708400000485",
                      "rows":1,
-                     "url":"dicomweb://dicomcloud.azurewebsites.net/wadouri/?RequestType=wado&studyUID=1.2.392.200036.9116.2.6.1.3268.2051314020.1461904638.200374&seriesUID=1.2.392.200036.9116.2.6.1.3268.2051314020.1461904639.541937&objectUID=1.2.392.200036.9116.2.6.1.3268.2051314020.1461897481.951895&&contentType=application/dicom"
-                  },
-                  {  
-                     "sopInstanceUid":"1.2.392.200036.9116.2.6.1.3268.2051314020.1461897481.972861",
-                     "rows":1,
-                     "url":"dicomweb://dicomcloud.azurewebsites.net/wadouri/?RequestType=wado&studyUID=1.2.392.200036.9116.2.6.1.3268.2051314020.1461904638.200374&seriesUID=1.2.392.200036.9116.2.6.1.3268.2051314020.1461904639.541937&objectUID=1.2.392.200036.9116.2.6.1.3268.2051314020.1461897481.972861&&contentType=application/dicom"
-                  },
-                  {  
-                     "sopInstanceUid":"1.2.392.200036.9116.2.6.1.3268.2051314020.1461897481.990617",
-                     "rows":1,
-                     "url":"dicomweb://dicomcloud.azurewebsites.net/wadouri/?RequestType=wado&studyUID=1.2.392.200036.9116.2.6.1.3268.2051314020.1461904638.200374&seriesUID=1.2.392.200036.9116.2.6.1.3268.2051314020.1461904639.541937&objectUID=1.2.392.200036.9116.2.6.1.3268.2051314020.1461897481.990617&&contentType=application/dicom"
-                  },
-                  {  
-                     "sopInstanceUid":"1.2.392.200036.9116.2.6.1.3268.2051314020.1461897482.8807",
-                     "rows":1,
-                     "url":"dicomweb://dicomcloud.azurewebsites.net/wadouri/?RequestType=wado&studyUID=1.2.392.200036.9116.2.6.1.3268.2051314020.1461904638.200374&seriesUID=1.2.392.200036.9116.2.6.1.3268.2051314020.1461904639.541937&objectUID=1.2.392.200036.9116.2.6.1.3268.2051314020.1461897482.8807&&contentType=application/dicom"
+                     "url":"dicomweb://dicomcloud.azurewebsites.net/wadouri/?RequestType=wado&studyUID=1.2.276.0.7230010.3.1.3.3969987548.1736.1477529664.531&seriesUID=1.3.12.2.1107.5.1.4.59001.30000016102701304708400000484&objectUID=1.3.12.2.1107.5.1.4.59001.30000016102701304708400000485&&contentType=application/dicom"
                   }
                ]
             }
@@ -57,9 +42,9 @@ Now, you can try this feature in the [DICOMweb-js demo](http://dicomweb.azureweb
 
 [diocmweb-js.PNG](/uploads/diocmweb-js.PNG)
 
-When you click on a “View Study” button, the demo will extract the “Study Instance UID”, open the OHIF viewer in a new tab then pass the URL of the DICOMcloud OHIF Viewer input as a query parameter. 
+When you click on a “View Study” button, the demo will extract the “Study Instance UID”, open the OHIF viewer in a new tab then pass the URL of the DICOMcloud OHIF Viewer input as a query parameter.
 
-The result, you can now generate a simple URL that can be embedded in an email or any kind of communication and provide access to an entire study from any HTML5 capable device. 
+The result, you can now generate a simple URL that can be embedded in an email or any kind of communication and provide access to an entire study from any HTML5 capable device.
 
 **Try this:**
 
