@@ -40,7 +40,7 @@ Behind the scenes, the DICOMcloud uses the same service used by **QIDO-RS** to q
 
 Now, you can try this feature in the [DICOMweb-js demo](http://dicomweb.azurewebsites.net/). The OHIF viewer has been deployed to its own website and the [DICOMweb-js demo](http://dicomweb.azurewebsites.net/) provide a button to immediately view the studies after querying (QIDO-RS) them from the server.
 
-[diocmweb-js.PNG](/uploads/diocmweb-js.PNG)
+![diocmweb-js](/uploads/diocmweb-js.PNG)
 
 When you click on a “View Study” button, the demo will extract the “Study Instance UID”, open the OHIF viewer in a new tab then pass the URL of the DICOMcloud OHIF Viewer input as a query parameter.
 
@@ -50,4 +50,4 @@ The result, you can now generate a simple URL that can be embedded in an email o
 
 [http://ohifviewer.azurewebsites.net/?url=https://dicomcloud.azurewebsites.net/ohif/study/1.2.392.200036.9116.2.6.1.3268.2051314020.1461904638.200374/series](http://ohifviewer.azurewebsites.net/?url=https://dicomcloud.azurewebsites.net/ohif/study/1.2.392.200036.9116.2.6.1.3268.2051314020.1461904638.200374/series)
 
-[ohif-viewer.PNG](/uploads/ohif-viewer.PNG)
+![ohif viewer](/uploads/ohif-viewer.PNG)
