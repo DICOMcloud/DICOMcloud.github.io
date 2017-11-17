@@ -68,6 +68,7 @@ Open Health Imaging Foundation DICOM web viewer
 ![ohif-logo2.png](/uploads/ohif-logo2.png)
 
 Read more about this [here](/docs/ohif-integration/)
+
 ---
 
 ### Cornerstone Viewer
