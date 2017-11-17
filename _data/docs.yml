@@ -4,3 +4,6 @@
 - title: DICOMweb
   docs:
   - coming-soon
+- title: 3rd Party Integration
+  docs:
+  - ohif-integration
