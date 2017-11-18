@@ -3,8 +3,6 @@ title: Design Overview
 navigation: dicomcloud
 ---
 
-
-
 The DICOMcloud server is built with extensibility in mind. 
 That means that you can virtually extend and customize any part of the framework to suit your needs and plug-it into the framework. 
 
