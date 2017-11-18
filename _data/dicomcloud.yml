@@ -12,6 +12,9 @@
   - dicomcloud/wadouri
   - dicomcloud/xmlconvert
   - dicomcloud/jsonconvert
+- title: Software Design and Features
+  docs:
+  - dicomcloud/design-overview
 - title: API Documentation
   docs:
   - dicomcloud/coming-soon
