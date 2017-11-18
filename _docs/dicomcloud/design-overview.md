@@ -11,7 +11,7 @@ if you are already familiar with the standard Software Design Patterns, such as 
 1. [Builder](http://www.dofactory.com/net/builder-design-pattern)
 2. [Factory](http://www.dofactory.com/net/factory-method-design-pattern)  
 3. [Command](http://www.dofactory.com/net/command-design-pattern)
-4. [Dependency Injection](http://www.dotnettricks.com/learn/dependencyinjection/implementation-of-dependency-injection-pattern-in-csharp)
+4. Constructor Injection ([Dependency Injection](http://www.dotnettricks.com/learn/dependencyinjection/implementation-of-dependency-injection-pattern-in-csharp))
 5. ...
 
 The best place to start with if you like to extend and customize the DICOMcloud server is to look at the [DICOMcloudBuilder](https://github.com/DICOMcloud/DICOMcloud/blob/development/DICOMcloud.Wado.WebApi/App_Start/DICOMcloudBuilder.cs) class.
