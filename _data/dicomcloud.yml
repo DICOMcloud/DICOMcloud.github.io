@@ -15,6 +15,7 @@
 - title: Software Design and Features
   docs:
   - dicomcloud/design-overview
+  - dicomcloud/pagination
 - title: API Documentation
   docs:
   - dicomcloud/coming-soon
