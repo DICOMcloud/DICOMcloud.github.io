@@ -3,7 +3,6 @@ title: Pagination with "Offset" and "Limit"
 navigation: dicomcloud
 ---
 
-# Query Pagination with "Offset" and "Limit"
 To support a pagination concept with “offset” and “limit” parameters in DICOM query “QIDO-RS” the following has been implemented:
 
 ## Updates to the QIDO-RS service:
