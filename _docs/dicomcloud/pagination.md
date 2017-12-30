@@ -8,9 +8,9 @@ To support a pagination concept with “offset” and “limit” parameters in 
 
 ## Updates to the QIDO-RS service:
 
-•	The **“QidoRsService”** will always apply a “MaximumResultsLimit” to the query even if not requested by the client. 
-•	The default value for **“MaximumResultsLimit”** is **12**
-•	This value can be updated in the web.config “**appSettings**” section by adding an entry with the key **"qido:maximumResultsLimit"** 
+-	The **“QidoRsService”** will always apply a “MaximumResultsLimit” to the query even if not requested by the client. 
+-	The default value for **“MaximumResultsLimit”** is **12**
+-	This value can be updated in the web.config “**appSettings**” section by adding an entry with the key **"qido:maximumResultsLimit"** 
 
 To make it easier for clients to navigate through the pages, the following headers will be added to the response:
 
