@@ -5,6 +5,7 @@
   - dicomcloud/sourcecode
   - dicomcloud/dicom-support
   - dicomcloud/endpoints
+   - dicomcloud/database-deploy
 - title: Examples
   docs:
   - dicomcloud/qido
