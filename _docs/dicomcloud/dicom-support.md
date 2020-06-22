@@ -4,7 +4,7 @@ sectionid: DICOMcloud
 navigation: dicomcloud
 ---
 
-The tables below describes the DICOMweb featrues currently implemented in the DICOMcloud project.
+The tables below describes the DICOMweb features currently implemented in the DICOMcloud project.
 
 ### QIDO-RS
 
